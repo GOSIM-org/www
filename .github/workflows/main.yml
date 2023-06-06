@@ -9,8 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v1  # v2 does not have submodules option now
-
       - name: Deploy root
         uses: peaceiris/actions-gh-pages@v3
         with:
