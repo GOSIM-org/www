@@ -476,11 +476,10 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero {
-  position: relative;
-  height: calc(90vh - 84px);
+  height: 100vh;
 }
 
-.hero::after {
+.container::after {
   content: "";
   background: rgba(0, 0, 0, 0) linear-gradient(rgba(39, 48, 83, 0.1) 0%, rgb(39, 48, 83) 100%) repeat scroll 0% 0%;
   position: absolute;
@@ -492,13 +491,21 @@ strong {
 }
 
 .hero-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   position: absolute;
   z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 20%;
+  width: 100vw;
+  right: 0;
   text-align: center;
 }
+
+.description {
+  width: 85%;
+}
+
 
 .hero .arrow-icon {
   position: relative;
@@ -984,7 +991,20 @@ strong {
   }
 
   .hero {
-    height: calc(75vh - 78.39px);
+    height: calc(100vh - 78.39px);
+  }
+
+  .hero .arrow-icon {
+    top: 0;
+  }
+
+  .hero-text {
+    top:100px;
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
   }
 
   .nav-tabs .nav-link {
@@ -1030,10 +1050,6 @@ strong {
     margin-right: 0;
     margin-left: 0;
     padding: 15px;
-  }
-
-  .hero-text {
-    width: 100%;
   }
 
   .site-footer .social-icon-link {
