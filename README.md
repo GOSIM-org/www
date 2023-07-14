@@ -1,0 +1,3 @@
+This looks like a fake open source project, you are cheating developers to sponsor your events through open source events in order to charge high fees, you have violated the code of ethics of open source software, open source can be held online, who wants to buy a plane ticket to attend your event? You are relying on such activities to cheat the project attention, cheat sponsorship fees, I will not introduce friends around to participate in this activity, and do not recommend them to participate! What kind of popular projects have you developed yourselves? Only scamming fees through open source events.
+
+It seems to me that you guys are just using the lie of the open source software theme to scam sponsors out of their fees 👎 .
